@@ -1,6 +1,7 @@
 # Convolution Visualizer
 
-Simple image convolution visualizer. Written in JS and rendered using the Canvas API on HTML. 
+Simple image convolution visualizer. Written in JS and rendered using the Canvas API on HTML. Try it at:
+https://nishchalagr.github.io/convolution.js/
 
 ## Purpose
 
