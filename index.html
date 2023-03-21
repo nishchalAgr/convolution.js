@@ -1,0 +1,30 @@
+<html>
+  <body>
+    <canvas id="canvas" style="width:50%; height:80%"></canvas>
+  </body>
+  <div id="table"></div>
+  <script src="convolution.js"></script>
+  <button onclick="incGrid(1)">+</button>
+  <button onclick="incGrid(-1)">-</button>
+  <button onclick="getInputGrid()">run</button>
+  <div>
+    <input type="checkbox" id="gray" name="gray" checked>
+    <label for="gray">Grayscale</label>
+  </div>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    .column {
+      float: left;
+      padding: 2px;
+    }
+
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+  </style>
+</html>
